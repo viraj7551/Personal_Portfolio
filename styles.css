@@ -18,7 +18,7 @@ footer{
     background-color: #FFF;
     position: relative;
     left: 0;
-    top: 100px;
+    top: 120px;
     width: 100%;
 }
 
@@ -31,14 +31,6 @@ h1{
     font-weight: 800;
     font-style: normal;
     font-size: 65px;
-
-    overflow: hidden;
-    white-space: nowrap;
-    width: 0;
-    animation: typing;
-    animation-duration: 1.5s;
-    animation-timing-function: steps(30, end);
-    animation-fill-mode: forwards;
 }
 
 h2{
@@ -117,27 +109,74 @@ span{
 }
 
 .main-container {
-    margin: 240px 140px 120px 620px;
-    animation: content-load 350ms ease-in;
+   margin-top: 220px;
+}
+.main-container > ul {
+    display: flex;
+}
+.main-container > ul > li{
+    display: inline-table;
 }
 
-.right-side > span {
+.main-container > ul > li:nth-child(1) > .left-side {
+   margin-left: 230px;
+}
+
+.main-container > ul > li:nth-child(1) > .left-side .card {
+    background-color: rgba(244, 236, 230, 1);
+    padding: 60px;
+    text-align: center;
+    width: 54%;
+    box-shadow:  0 1px 4px rgba(0, 0, 0, .6);
+}
+
+.main-container > ul > li:nth-child(2) > .right-side{
+   margin-left: 2px
+}
+
+.main-container > ul > li:nth-child(1) > .left-side > .card > .profile > img{
+    width: 200px;
+}
+
+.card-footer > ul{
+    display: flex;
+}
+.card-footer > ul > li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.main-container > ul > li:nth-child(1) > .left-side > .card >.profileName > h1{
+    font-size: 30px;
+}
+
+.main-container > ul > li:nth-child(2) > .right-side > h1{
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing;
+    animation-duration: 4s;
+    animation-timing-function: steps(30, end);
+    animation-fill-mode: forwards;
+}
+
+.main-container > ul > li:nth-child(2) > .right-side > span {
     line-height: 5px;
     font-family: Arial,Helvetica,sans-serif;
     font-size: 20px;
 }
 
-.main-container > .right-side > .profile_buttons{
+.main-container > ul > li:nth-child(2) > .right-side > .profile_buttons{
     padding: 35px 0px;
 }
 
-.main-container > .right-side > .profile_buttons > .btn{
+.main-container > ul > li:nth-child(2) > .right-side > .profile_buttons > .btn{
     padding: 9px;
     width: 120px;
     border-radius: 40px;
 }
 
-.main-container > .right-side > .profile_buttons > .btn-resume{
+.main-container > ul > li:nth-child(2) > .right-side > .profile_buttons > .btn-resume{
     border-style: none;
     background-color: blue;
     text-decoration: none;
@@ -145,14 +184,14 @@ span{
     font-weight: 600;
 }
 
-.main-container > .right-side > .profile_buttons > input:nth-child(1):hover{
+.main-container > ul > li:nth-child(2) > .right-side > .profile_buttons > input:nth-child(1):hover{
    cursor: pointer;
    background-color: #FFF;
    border: 1px solid blue;
    color: black;
 }
 
-.main-container > .right-side > .profile_buttons > .btn-project{
+.main-container > ul > li:nth-child(2) > .right-side > .profile_buttons > .btn-project{
     text-decoration: none;
     font-weight: 600;
     border: 1px solid;
@@ -161,7 +200,7 @@ span{
 
 }
 
-.main-container > .right-side > .profile_buttons > input:nth-child(2):hover{
+.main-container > ul > li:nth-child(2) > .right-side > .profile_buttons > input:nth-child(2):hover{
     cursor: pointer;
     background-color: blue;
     border: 1px solid;
