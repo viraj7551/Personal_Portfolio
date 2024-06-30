@@ -1,0 +1,245 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        #EADBC8 0%,
+        #EADBC8 40%,
+        #FFFF 40%,
+        #FFFF 100%
+    );
+}
+
+footer{
+    background-color: #FFF;
+    position: relative;
+    left: 0;
+    top: 100px;
+    width: 100%;
+}
+
+img{
+    width: 15px;
+}
+
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 65px;
+
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing;
+    animation-duration: 1.5s;
+    animation-timing-function: steps(30, end);
+    animation-fill-mode: forwards;
+}
+
+h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 25px;
+}
+
+a{
+    font-family: "Poppins", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 14px;
+}
+
+span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.active{
+    color: blue;
+}
+
+.header{
+    background-color: #FFF;
+    border-bottom: 1px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    animation: nav-load 300ms ease-in;
+}
+
+ .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ .header span {
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.header {
+    display: flex;
+}
+
+.header > ul {
+    display: flex;
+}
+
+.header > ul > li{
+    display: inline-table;
+}
+
+.header-navbar{
+    display: flex;
+    margin-left: 460px;
+}
+
+.header-navbar > ul {
+    display: flex;
+}
+
+.header-navbar > ul > li{
+    display: inline;
+    padding: 10px;
+}
+
+.header-navbar > ul > li > a{
+    text-decoration: none;
+}
+
+.main-container {
+    margin: 240px 140px 120px 620px;
+    animation: content-load 350ms ease-in;
+}
+
+.right-side > span {
+    line-height: 5px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 20px;
+}
+
+.main-container > .right-side > .profile_buttons{
+    padding: 35px 0px;
+}
+
+.main-container > .right-side > .profile_buttons > .btn{
+    padding: 9px;
+    width: 120px;
+    border-radius: 40px;
+}
+
+.main-container > .right-side > .profile_buttons > .btn-resume{
+    border-style: none;
+    background-color: blue;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 600;
+}
+
+.main-container > .right-side > .profile_buttons > input:nth-child(1):hover{
+   cursor: pointer;
+   background-color: #FFF;
+   border: 1px solid blue;
+   color: black;
+}
+
+.main-container > .right-side > .profile_buttons > .btn-project{
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid;
+    background-color: #FFF;
+    margin-left: 10px;
+
+}
+
+.main-container > .right-side > .profile_buttons > input:nth-child(2):hover{
+    cursor: pointer;
+    background-color: blue;
+    border: 1px solid;
+    color: #FFF;
+ }
+
+.content-section > span{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+footer > .footer-container{
+    padding: 20px 25px 10px 25px;
+    text-align: center;
+}
+
+footer > .footer-container > ul {
+    display: flex;
+}
+
+footer > .footer-container > ul > li{
+    display: inline-block;
+}
+
+.contact-container {
+    margin-left: 300px;
+}
+
+.contact-container > ul {
+    display: flex;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+ .contact-container > ul > li {
+    display: inline-block;
+    padding: 0px 50px;
+}
+
+.contact-container > ul > li > span {
+   font-weight: 550;
+   font-size: 14px;
+}
+
+.contact-container > ul > li > p {
+    padding: 10px;
+    font-weight: 200;
+    font-size: 13px;
+ }
+
+.contact-container > ul > li:nth-child(3) > ul > li{
+    display: inline-block;
+    padding: 10px 7px;
+}
+
+@keyframes nav-load{
+    0%{
+      transform: translateY(-100%);
+    }
+   
+   100%{
+     transform: translateY(0);
+   }
+   
+}
+
+
+@keyframes content-load {
+    0%{
+        transform: translateX(100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }

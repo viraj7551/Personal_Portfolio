@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   background-color: #EADBC8;
+   animation: nav-load 200ms ease;
+}
+
+footer{
+    background-color: #FFF;
+    position: relative;
+    left: 0;
+    top: 100px;
+    width: 100%;
+}
+
+img{
+    width: 15px;
+}
+
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 65px;
+}
+
+h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 25px;
+}
+
+a{
+    font-family: "Poppins", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 14px;
+}
+
+span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.active{
+    color: blue;
+}
+
+.header{
+    background-color: #FFF;
+    border-bottom: 1px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    animation: nav-load 300ms ease-in;
+}
+
+ .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ .header span {
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.header {
+    display: flex;
+}
+
+.header > ul {
+    display: flex;
+}
+
+.header > ul > li{
+    display: inline-table;
+}
+
+.header-navbar{
+    display: flex;
+    margin-left: 460px;
+}
+
+.header-navbar > ul {
+    display: flex;
+}
+
+.header-navbar > ul > li{
+    display: inline;
+    padding: 10px;
+}
+
+.header-navbar > ul > li > a{
+    text-decoration: none;
+}
+
+
+/* ----------------------- footer section --------------------------> */
+
+footer > .footer-container{
+    padding: 20px 25px 10px 25px;
+    text-align: center;
+}
+
+footer > .footer-container > ul {
+    display: flex;
+}
+
+footer > .footer-container > ul > li{
+    display: inline-block;
+}
+
+.contact-container {
+    margin-left: 300px;
+}
+
+.contact-container > ul {
+    display: flex;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+ .contact-container > ul > li {
+    display: inline-block;
+    padding: 0px 50px;
+}
+
+.contact-container > ul > li > span {
+   font-weight: 550;
+   font-size: 14px;
+}
+
+.contact-container > ul > li > p {
+    padding: 10px;
+    font-weight: 200;
+    font-size: 13px;
+ }
+
+.contact-container > ul > li:nth-child(3) > ul > li{
+    display: inline-block;
+    padding: 10px 7px;
+}
+
+@keyframes nav-load{
+    0%{
+      transform: translateY(-100%);
+    }
+   
+   100%{
+     transform: translateY(0);
+   }
+   
+}
+
+
+@keyframes content-load {
+    0%{
+        transform: translateX(100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
