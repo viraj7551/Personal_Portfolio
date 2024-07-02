@@ -4,8 +4,7 @@
 }
 
 body{
-   background-color: #EADBC8;
-   animation: nav-load 200ms ease;
+   background-color: #EADBC8;   
 }
 
 footer{
@@ -24,7 +23,9 @@ h1{
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-style: normal;
-    font-size: 65px;
+    font-size: 28px;
+    margin: 150px 90px 70px 90px;
+    text-align: center;
 }
 
 h2{
@@ -102,6 +103,70 @@ span{
     text-decoration: none;
 }
 
+ul{
+    display: flex;
+}
+
+ul > li{
+    display: inline-block;
+}
+
+.main-container > .experience-title > ul > li:nth-child(2) > .profile-buttons > .btn{
+    padding: 9px;
+    width: 120px;
+    border-radius: 40px;
+}
+
+.main-container > .experience-title {
+    margin: 200px 200px 2px 200px;
+}
+
+.main-container > .experience-title > ul > li:nth-child(2) >.profile-buttons{
+    padding-left: 605px;
+}
+.main-container > .experience-title > ul > li:nth-child(2) > .profile-buttons > .btn-resume{
+    border-style: none;
+    background-color: blue;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 600;
+}
+
+.main-container > .experience-title > ul > li:nth-child(2) > .profile-buttons > input:nth-child(1):hover{
+   cursor: pointer;
+   background-color: #FFF;
+   border: 1px solid blue;
+   color: black;
+}
+
+
+.experience-cards{
+    background-color: #FFF;
+    margin-top: 40px;
+    padding: 90px;
+    animation: content-load 400ms ease-in ;
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+.experience-details > ul {
+    display: flex;
+}
+
+.experience-details > ul > li{
+    display:  inline;
+}
+
+.experience-details > ul > li > img{
+    width: 200px;
+    padding: 0px 20px 30px 230px;
+}
 
 /* ----------------------- footer section --------------------------> */
 
@@ -158,7 +223,14 @@ footer > .footer-container > ul > li{
    }
    
 }
-
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 
 @keyframes content-load {
     0%{
@@ -169,3 +241,4 @@ footer > .footer-container > ul > li{
         transform: translateX(0);
     }
 }
+
