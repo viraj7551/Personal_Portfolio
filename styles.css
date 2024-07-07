@@ -5,14 +5,8 @@
 
 body{
     height: 100vh;
-    background: linear-gradient(
-        to right,
-        #EADBC8 0%,
-        #EADBC8 40%,
-        #FFFF 40%,
-        #FFFF 100%
-    );
 }
+
 
 footer{
     background-color: #FFF;
@@ -52,6 +46,24 @@ span{
     font-weight: 300;
     font-style: normal;
     font-size: 12px;
+}
+
+#btncollapse{
+  display: none;
+}
+
+.background-color{
+    background: linear-gradient(
+        to right,
+        #EADBC8 0%,
+        #EADBC8 40%,
+        #FFFF 40%,
+        #FFFF 100%
+    );
+}
+
+.role:before {
+    content: "/";
 }
 
 .active{
@@ -120,6 +132,7 @@ span{
 
 .main-container > ul > li:nth-child(1) > .left-side {
    margin-left: 230px;
+   animation: content-load2 400ms ease-in;
 }
 
 .main-container > ul > li:nth-child(1) > .left-side .card {
@@ -131,7 +144,8 @@ span{
 }
 
 .main-container > ul > li:nth-child(2) > .right-side{
-   margin-left: 2px
+   margin-left: 2px;
+   animation: content-load 400ms ease-in;
 }
 
 .main-container > ul > li:nth-child(1) > .left-side > .card > .profile > img{
@@ -214,7 +228,7 @@ span{
 }
 
 footer > .footer-container{
-    padding: 20px 25px 10px 25px;
+    padding: 10px 25px 10px 25px;
     text-align: center;
 }
 
@@ -267,6 +281,15 @@ footer > .footer-container > ul > li{
    
 }
 
+@keyframes content-load2 {
+    0%{
+        transform: translateX(-100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
 
 @keyframes content-load {
     0%{
@@ -283,64 +306,131 @@ footer > .footer-container > ul > li{
     to { width: 100% }
   }
 
-
-
-  /* @media (max-width: 1200px) {
-    .header-navbar {
-        margin-left: 70px;
+  @media screen and (max-width: 480px) {
+  
+    *{
+        margin: 0px;
+        padding: 0px;
     }
 
+    h2{
+        font-size: 72px;
+    }
     body{
-        height: 10vh;
+        height: 285vh;
     }
 
-    footer{
-        height: auto;
-        top: 300px;
+    .role{
+        display: block;
     }
 
-    .contact-container{
-        margin-left: 60px;
-    }
-}
-
-@media (max-width: 992px) {
-    .main-container > ul > li {
-        flex-direction: column;
+    .role:before {
+        content: "";
+        font-size: 30px;
     }
 
-    .main-container > ul > li:nth-child(1) > .left-side,
-    .main-container > ul > li:nth-child(2) > .right-side {
-        margin-left: 0;
+    .header > ul > li:nth-child(2) > .header-navbar > ul {
+        display: block;
     }
 
-    .contact-container {
-        margin-left: 0;
-        text-align: center;
-    }
-}
-
-@media (max-width: 768px) {
-    .header {
-        flex-direction: column;
+    #btncollapse{
+        display: block;
+        width: 8px;
     }
 
-    .header-navbar {
-        margin-left: 0;
-        margin-top: 20px;
+    .background-color{
+        background: linear-gradient(
+            to bottom,
+            #FFF 0%,
+            #FFF 30%,
+            #EADBC8 30%,
+            #EADBC8 100%
+        );
     }
 
-    .main-container {
-        margin-top: 150px;
-    }
-}
-
-@media (max-width: 576px) {
-    .header {
-        padding: 15px;
+    .main-container{
+       padding-top: 110px;
     }
 
-    .main-container {
-        margin-top: 120px;
+    .main-container > ul{
+        display: block;
     }
-} */
+
+    .main-container > ul > li:nth-child(1) > .left-side{
+       margin-left: 60px;
+    }
+
+    .main-container > ul > li:nth-child(1) > .left-side > .card{
+        padding: 100px 200px 0px 200px;
+    }
+
+    .main-container > ul > li:nth-child(1) > .left-side > .card > .profile > img{
+        width: 450px;
+    }
+
+    .main-container > ul > li:nth-child(1) > .left-side > .card > .profileName{
+        margin-top: 40px;
+    }
+
+    .main-container > ul > li:nth-child(1) > .left-side > .card > hr{
+        border: 2px solid;
+        width: 258px;
+        margin: 40px 0px 0px 95px;
+        color: blue;
+    }
+
+    .main-container > ul > li:nth-child(1) > .left-side > .card > .card-footer > ul{
+       padding: 50px 50px 50px 70px;
+    }
+    
+    .main-container > ul > li:nth-child(1) > .left-side > .card > .card-footer > ul > li > a > img{
+        width: 45px;
+    }
+
+    .main-container > ul > li:nth-child(2) > .right-side{
+        margin: 60px;
+        width: 900px;
+    }
+
+    h1{
+        font-size: 128px;
+        padding-bottom: 25px;
+    }
+
+    .main-container > ul > li:nth-child(2) > .right-side > span{
+        font-size: 52px;
+        font-weight: 549;
+    }
+
+    .main-container > ul > li:nth-child(2) > .right-side > .profile_buttons{
+        width: 900px;
+    }
+
+    .main-container > ul > li:nth-child(2) > .right-side > .profile_buttons > .btn-resume{
+        padding: 30px;
+        width: 400px;
+      }
+
+    .main-container > ul > li:nth-child(2) > .right-side > .profile_buttons > .btn-resume{
+      font-size: 35px;
+    }
+
+    .main-container > ul > li:nth-child(2) > .right-side > .profile_buttons > .btn-project{
+        padding: 30px;
+        width: 400px;
+      }
+
+    .main-container > ul > li:nth-child(2) > .right-side > .profile_buttons > .btn-project{
+      font-size: 35px;
+      background-color: #EADBC8;
+    }
+
+    .main-container > ul > li:nth-child(2) > .right-side > .content-section{
+       padding-top: 30px;
+    }
+
+    .main-container > ul > li:nth-child(2) > .right-side > .content-section > span{
+        font-size: 42px;
+    }
+
+  }
