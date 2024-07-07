@@ -320,8 +320,9 @@ footer > .footer-container > ul > li{
         height: 285vh;
     }
 
-    .role{
+    h2 > .role{
         display: block;
+        font-size: 40px;
     }
 
     .role:before {
@@ -330,7 +331,7 @@ footer > .footer-container > ul > li{
     }
 
     .header > ul > li:nth-child(2) > .header-navbar > ul {
-        display: block;
+        display: none;
     }
 
     #btncollapse{
@@ -433,4 +434,29 @@ footer > .footer-container > ul > li{
         font-size: 42px;
     }
 
+    .main-container > ul > li:nth-child(2) > .right-side > .profile_buttons > input:nth-child(1):hover{
+        background-color: blue;
+        color: #FFF;
+    }
+
+    .main-container > ul > li:nth-child(2) > .right-side > .profile_buttons > input:nth-child(2):hover{
+        background-color: #FFF;
+        color: black;
+    }
+
+    .footer-container > ul > li:nth-child(1) > span{
+        display: none;
+    }
+
+    .footer-container > ul > li:nth-child(2) > .contact-container{
+        margin-left: 10px;
+    }
+
+    .footer-container > ul > li:nth-child(2) > .contact-container > ul > li:nth-child(3) > ul{
+        display: flex;
+    }
+
+    .footer-container > ul > li:nth-child(2) > .contact-container > ul > li:nth-child(3) > ul >li{
+        display: inline-block;
+    }
   }
