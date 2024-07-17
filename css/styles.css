@@ -782,11 +782,10 @@ footer > .footer-container > ul > li{
      .experience-cards {
         width: 520px;
         margin: 20px 20px 50px 20px;
-        height: 95vh;
+        height: 85vh;
      }
-
-      .longc{
-        height: 135vh;
+     .clong{
+        display: none;
      }
 
      .main-container > .experience-title > ul > li:nth-child(1) > h2{
@@ -811,11 +810,10 @@ footer > .footer-container > ul > li{
      }
 
      .main-container > .experience-title > .experience-cards > .content > .experience-details > ul > li:nth-child(2) > img{
-        width: 350px;
+        width: 300px;
         padding: 80px;
         margin-top: 10px;
      }
-
 
      @media only screen and (orientation: landscape) {
         .header > ul > li:nth-child(1) > div{
@@ -849,9 +847,11 @@ footer > .footer-container > ul > li{
          .main-container > .experience-title > ul > li:nth-child(1) > h2{
             font-size: 35px;
          }
-
          .role2 > p{
             display: none;
+         }
+         .clong{
+            display: block;
          }
       }
 
