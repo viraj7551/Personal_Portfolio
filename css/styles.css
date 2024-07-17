@@ -782,7 +782,11 @@ footer > .footer-container > ul > li{
      .experience-cards {
         width: 520px;
         margin: 20px 20px 50px 20px;
-        height: 90vh;
+        height: 95vh;
+     }
+
+      .longc{
+        height: 135vh;
      }
 
      .main-container > .experience-title > ul > li:nth-child(1) > h2{
