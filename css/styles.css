@@ -3,28 +3,17 @@
     margin: 0px;
     padding: 0px;
 }
-
-.background-color2{
-   background-color: #EADBC8;   
-}
-/* ul{
-    display: flex;
-}
-
-ul > li{
-    display: inline-block;
-} */
-
 .main-container > .experience-title > ul > li:nth-child(2) > .preview-buttons > .btn{
     padding: 9px;
     width: 120px;
     border-radius: 40px;
 }
-
+.cube{
+    background-color: blue;
+}
 .main-container > .experience-title {
     margin: 200px 200px 2px 200px;
 }
-
 .main-container > .experience-title > ul > li:nth-child(2) >.preview-buttons{
     padding-left: 605px;
 }
@@ -35,22 +24,18 @@ ul > li{
     color: #FFF;
     font-weight: 600;
 }
-
 .main-container > .experience-title > ul > li:nth-child(2) > .preview-buttons > input:nth-child(1):hover{
    cursor: pointer;
    background-color: #FFF;
    border: 1px solid blue;
    color: black;
 }
-
-
 .experience-cards{
     background-color: #FFF;
     margin-top: 40px;
     padding: 90px;
     animation: content-load 400ms ease-in ;
 }
-
 .fade-in {
 	opacity: 1;
 	animation-name: fadeInOpacity;
@@ -58,25 +43,17 @@ ul > li{
 	animation-timing-function: ease-in;
 	animation-duration: 2s;
 }
-
 .experience-details > ul {
     display: flex;
 }
-
 .experience-details > ul > li{
     display:  inline;
 }
-
-.experience-details > ul > li > img{
-    width: 200px;
-    padding: 0px 20px 30px 230px;
-}
-
 footer{
     background-color: #FFF;
     position: relative;
     left: 0;
-    width: 100%;
+    width: auto;
 }
 img{
     width: 15px;
@@ -85,13 +62,12 @@ h1{
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-style: normal;
-    font-size: 65px;
+    font-size: 45px;
 }
 h2{
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-style: normal;
-    font-size: 25px;
 }
 a{
     font-family: "Poppins", sans-serif;
@@ -155,9 +131,6 @@ hr{
 }
 .header > ul > li{
     display: inline-block;
-}
-.header-navbar{
-    display: flex;
 }
 .header-navbar > ul {
     display: flex;
@@ -263,7 +236,7 @@ enhance this below code
     letter-spacing: 2px;
 }
 footer > .footer-container{
-    padding: 10px 25px 10px 25px;
+    padding: 10px 0px 10px 60px;
     text-align: center;
 }
 footer > .footer-container > ul {
@@ -317,6 +290,9 @@ footer > .footer-container > ul > li{
    border: 1px solid blue;
    color: black;
 }
+.main-container > .resume-heading{
+    text-align: center;
+}
 .experience-cards{
     background-color: #FFF;
     padding: 90px;
@@ -342,51 +318,98 @@ footer > .footer-container > ul > li{
     width: 200px;
 }
 
+/* @media screen and (min-device-width: 2172px) and (max-device-width: 2560px){
+    .header{
+        height: 7vh;
+    }
+    .cube{
+        width: 30px;
+        height: 30px;
+        margin: 15px 15px 5px 5px;
+    }
+    .header > ul > li:nth-child(2) > .header-brand > a > h2{
+        font-size: 38px;
+    }
+    .header > ul > li:nth-child(2) > .header-brand > a > h2 > span{
+        font-size: 25px;
+    }
+    .header  > ul > li:nth-child(3) > .header-navbar{
+        margin-left: 1300px;
+    }
+    .header  > ul > li:nth-child(3) > .header-navbar > ul{
+        padding: 10px;
+    }
+    .header  > ul > li:nth-child(3) > .header-navbar > ul > li > a{
+       font-size: 25px;
+    }
+    .main-container{
+        margin: 457px;
+        padding-left: 360px;
+    }
+    .main-container > ul > li > .left-side > .card{
+        height: 25vh;
+    }
+    .main-container > ul > li > .left-side > .card > .profileName > h2{
+        font-size: 28px;
+        margin-top: 15px;
+    }
+    hr{
+        margin: 15px 10px 15px 40px;
+    }
+    .main-container > ul > li > .left-side > .card > .card-footer > ul > li > a > img{
+        width: 20px;
+    }
+    .main-container > ul > li > .right-side > h1{
+        font-size: 60px;
+    }
+    .content-section > span{
+      font-size: 25px
+    }
+
+} */
 @media screen and (min-device-width: 1256px) and (max-device-width: 1290px) { 
     /* STYLES HERE */
 
     .header-navbar{
         margin-left: 670px;
     }
-
     .main-container{
         margin: 220px 5px 100px 5px;
     }
-
+    .main-container > .resume-heading{
+        margin-top: 100px;
+        font-size: 32px;
+    }
+    .main-container > .experience-title{
+        margin-top: 90px;
+    }
     .main-container > ul > li:nth-child(1) > .left-side {
         margin-left: 249px;
     }
-
     .content-section {
         width: 80%;
         padding: 5px;
     }
-
     footer{
         top: 21px;
     }
-
     .contact-container {
         margin-left: 320px;
     }
-
     .contact-container > ul > li > span {
         font-weight: 550;
         font-size: 15px;
      }
-
     .contact-container > ul > li > p {
         font-weight: 200;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 40px;
      }
      .cube {
         width: 20px;
         height: 20px;
-        background-color: blue;
-        margin: 8px 10px 20px 0px;
+        margin: 6px 10px 20px 0px;
     }
-
     .main-container > .experience-title > ul > li:nth-child(2) >.preview-button{
         padding-left: 570px;
     }
@@ -406,6 +429,13 @@ footer > .footer-container > ul > li{
     }
     .main-container{
         margin-top: 220px;
+    }
+    .main-container > .resume-heading{
+        margin-top: 100px;
+        font-size: 32px;
+    }
+    .main-container > .experience-title{
+        margin-top: 90px;
     }
     .main-container > ul > li:nth-child(1) > .left-side {
         margin-left: 231px;
@@ -432,8 +462,7 @@ footer > .footer-container > ul > li{
      .cube {
         width: 20px;
         height: 20px;
-        background-color: blue;
-        margin: 8px 10px 20px 0px;
+        margin: 6px 10px 20px 0px;
     }
 
     .main-container > .experience-title > ul > li:nth-child(2) >.preview-buttons{
@@ -445,7 +474,6 @@ footer > .footer-container > ul > li{
     .experience-details > ul > li > img{
         padding: 0px 20px 30px 130px;
     }
-
     .experience-details > ul > li:nth-child(1){
         margin: 24px;
     }
@@ -454,11 +482,16 @@ footer > .footer-container > ul > li{
     .header-navbar{
         margin-left: 350px;
     }
-
     .main-container{
         margin-top: 241px;
     }
-
+    .main-container > .resume-heading{
+        margin-top: 100px;
+        font-size: 32px;
+    }
+    .main-container > .experience-title{
+        margin-top: 90px;
+    }
     .main-container > ul > li:nth-child(1) > .left-side {
         margin-left: 169px;
     }
@@ -472,36 +505,29 @@ footer > .footer-container > ul > li{
     .contact-container {
         margin-left: 20px;
     }
-
     .contact-container > ul > li > span {
         font-weight: 550;
         font-size: 15px;
      }
-
     .contact-container > ul > li > p {
         font-weight: 200;
         font-size: 16px;
         line-height: 40px;
      }
-
      .cube {
         width: 20px;
         height: 20px;
-        background-color: blue;
-        margin: 8px 10px 20px 0px;
+        margin: 6px 10px 20px 0px;
     }
-
     .main-container > .experience-title > ul > li:nth-child(2) >.preview-buttons{
         padding-left: 360px;
     }
-
     .main-container > .experience-title > .experience-cards  > .content > .experience-date > span{
         margin: 0px 0px 0px 20px;
     }
      .experience-details > ul > li > img{
         padding: 0px 50px 30px 80px;
     }
-
     .experience-details > ul > li:nth-child(1){
         margin: 24px;
     }
@@ -513,6 +539,14 @@ footer > .footer-container > ul > li{
 
     .main-container{
         margin-top: 240px;
+    }
+
+    .main-container > .resume-heading{
+        margin-top: 100px;
+        font-size: 32px;
+    }
+    .main-container > .experience-title{
+        margin-top: 90px;
     }
 
     .main-container > ul > li:nth-child(1) > .left-side {
@@ -547,8 +581,7 @@ footer > .footer-container > ul > li{
      .cube {
         width: 20px;
         height: 20px;
-        background-color: blue;
-        margin: 8px 10px 20px 0px;
+        margin: 6px 10px 20px 0px;
     }
 
     .main-container > .experience-title > ul > li:nth-child(2) >.preview-buttons{
@@ -578,7 +611,6 @@ footer > .footer-container > ul > li{
         display: block;
         font-size: 40px;
     }
-
     p{
         font-size: 20px;
     }
@@ -596,10 +628,9 @@ footer > .footer-container > ul > li{
         font-size: 30px;
     }
     .cube {
-        width: 50px;
-        height: 50px;
-        background-color: blue;
-        margin:25px 15px 20px 0px;
+        width: 45px;
+        height: 45px;
+        margin:28px 15px 20px 0px;
     }
 
    .header-navbar > ul {
@@ -618,6 +649,15 @@ footer > .footer-container > ul > li{
 
     .main-container{
        padding-top: 210px;
+    }
+
+    .main-container > .resume-heading{
+        margin-top: 100px;
+        font-size: 42px;
+        margin-left: 472px;
+    }
+    .main-container > .experience-title{
+        margin-top: 60px;
     }
 
     .main-container > ul{
@@ -746,12 +786,12 @@ footer > .footer-container > ul > li{
      }
 
      .main-container > .experience-title > ul > li:nth-child(1) > h2{
-        font-size: 50px;
+        font-size: 39px;
         margin-left: 20px;
      }
 
      .main-container > .experience-title > ul > li:nth-child(2) > .preview-buttons{
-        padding-left: 190px;
+        padding-left: 230px;
      }
      .main-container > .experience-title > ul > li:nth-child(2) > .preview-buttons > .btn-resume {
         width: 220px;
@@ -759,7 +799,7 @@ footer > .footer-container > ul > li{
         font-size: 30px;
      }
      .main-container > .experience-title > .experience-cards > .content > .experience-date > span{
-        font-size: 29px;
+        font-size: 15px;
      }
 
      .main-container > .experience-title > .experience-cards > .content > .experience-details > ul{
@@ -769,24 +809,65 @@ footer > .footer-container > ul > li{
      .main-container > .experience-title > .experience-cards > .content > .experience-details > ul > li:nth-child(2) > img{
         width: 350px;
         padding: 80px;
+        margin-top: 10px;
      }
 
+
+     @media only screen and (orientation: landscape) {
+        .header > ul > li:nth-child(1) > div{
+            width: 20px;
+            height: 20px;
+        }
+        .header > ul > li:nth-child(3) > .header-brand > h2{
+            font-size: 48px;
+        }
+        .header > ul > li:nth-child(3) > .header-brand > h2 > span{
+            font-size: 25px;
+        }
+        .main-container > .experience-title > ul > li:nth-child(2) > .preview-buttons{
+            margin-left: 140px;
+        }
+        .main-container > .experience-title > ul > li:nth-child(2) > .preview-buttons > .btn-resume{
+            width: 160px;
+            height: 55px;
+            font-size: 25px;
+        }
+        .main-container > .experience-title{
+            width: 110%;
+        }
+        .main-container > .experience-title > .experience-cards > .content > .experience-details > ul{
+            display: flex;
+        }
+        .main-container > .experience-title > .experience-cards > .content > .experience-details > ul > li:nth-child(2) > img{
+            width: 170px;
+            margin-top: -40px;
+         }
+         .main-container > .experience-title > ul > li:nth-child(1) > h2{
+            font-size: 35px;
+         }
+
+         .role2 > p{
+            display: none;
+         }
+      }
+
      .main-container > .experience-title > .experience-cards > .content > .experience-details > ul > li:nth-child(1) > h2{
-        font-size: 41px;
+        font-size: 32px;
      }
 
      .main-container > .experience-title > .experience-cards > .content > .experience-details > ul > li:nth-child(1) > h4{
-        font-size: 34px;
+        font-size: 25px;
      }
 
      .main-container > .experience-title > .experience-cards > .content > .experience-details > ul > li:nth-child(1) > span{
-        font-size: 25px;
+        font-size: 20px;
     }
      .main-container > .experience-title > .experience-cards > .content > .experience-details > ul > li:nth-child(1) > div > a{
        font-size: 20px;
      }
 
 }
+
 @keyframes nav-load{
     0%{
       transform: translateY(-100%);
