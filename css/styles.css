@@ -318,55 +318,58 @@ footer > .footer-container > ul > li{
     width: 200px;
 }
 
-/* @media screen and (min-device-width: 2172px) and (max-device-width: 2560px){
-    .header{
-        height: 7vh;
-    }
-    .cube{
-        width: 30px;
-        height: 30px;
-        margin: 15px 15px 5px 5px;
-    }
-    .header > ul > li:nth-child(2) > .header-brand > a > h2{
-        font-size: 38px;
-    }
-    .header > ul > li:nth-child(2) > .header-brand > a > h2 > span{
-        font-size: 25px;
-    }
-    .header  > ul > li:nth-child(3) > .header-navbar{
-        margin-left: 1300px;
-    }
-    .header  > ul > li:nth-child(3) > .header-navbar > ul{
-        padding: 10px;
-    }
-    .header  > ul > li:nth-child(3) > .header-navbar > ul > li > a{
-       font-size: 25px;
+@media screen and (min-device-width: 1441px) and (max-device-width: 2560px){
+    .header-navbar{
+        margin-left: 1770px;
     }
     .main-container{
-        margin: 457px;
-        padding-left: 360px;
+        margin: 465px;
     }
-    .main-container > ul > li > .left-side > .card{
-        height: 25vh;
+    .main-container > .resume-heading{
+        margin-top: 100px;
+        font-size: 32px;
     }
-    .main-container > ul > li > .left-side > .card > .profileName > h2{
-        font-size: 28px;
-        margin-top: 15px;
+    .main-container > .experience-title{
+        margin: 90px;
     }
-    hr{
-        margin: 15px 10px 15px 40px;
+    .main-container > ul > li:nth-child(1) > .left-side {
+        margin-left: 470px;
     }
-    .main-container > ul > li > .left-side > .card > .card-footer > ul > li > a > img{
+    .content-section {
+        width: 80%;
+        padding: 5px;
+    }
+    footer{
+        top: 21px;
+    }
+    .contact-container {
+        margin-left: 1400px;
+    }
+    .cube {
         width: 20px;
+        height: 20px;
+        margin: 6px 10px 20px 0px;
     }
-    .main-container > ul > li > .right-side > h1{
-        font-size: 60px;
+    .main-container > .experience-title > ul > li:nth-child(2) >.preview-button{
+        padding-left: 570px;
     }
-    .content-section > span{
-      font-size: 25px
+    .main-container > .experience-title > .experience-cards  > .content > .experience-date > span{
+        margin: 0px 0px 0px 20px;
     }
 
-} */
+    .main-container > .experience-title > ul > li:nth-child(2) >.preview-button{
+        padding-left: 570px;
+    }
+    .main-container > .experience-title > .experience-cards  > .content > .experience-date > span{
+        margin: 0px 0px 0px 20px;
+    }
+    .experience-details > ul > li > img{
+        padding: 0px 20px 30px 150px;
+    }
+    .experience-details > ul > li:nth-child(1){
+        margin: 24px;
+    }
+}
 
 @media screen and (min-device-width: 1291px) and (max-device-width: 1440px){
     .header-navbar{
