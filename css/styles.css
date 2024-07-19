@@ -417,7 +417,7 @@ footer > .footer-container > ul > li{
         margin-left: 1670px;
     }
     .main-container{
-        margin: 400px 5px 530px 355px;
+        margin: 400px 5px 500px 355px;
     }
     .main-container > .resume-heading{
         margin-top: 100px;
@@ -442,7 +442,7 @@ footer > .footer-container > ul > li{
     .cube {
         width: 20px;
         height: 20px;
-        margin: 6px 10px 20px 0px;
+        margin: 4px 10px 20px 0px;
     }
 }
 @media screen and (min-device-width: 2028px) and (max-device-width: 2270px){
@@ -450,7 +450,7 @@ footer > .footer-container > ul > li{
         margin-left: 1410px;
     }
     .main-container{
-        margin: 400px 5px 530px 255px;
+        margin: 400px 5px 100px 255px;
     }
     .main-container > .resume-heading{
         margin-top: 100px;
@@ -483,7 +483,7 @@ footer > .footer-container > ul > li{
         margin-left: 1270px;
     }
     .main-container{
-        margin: 400px 5px 530px 155px;
+        margin: 400px 5px 100px 155px;
     }
     .main-container > .resume-heading{
         margin-top: 100px;
@@ -516,7 +516,7 @@ footer > .footer-container > ul > li{
         margin-left: 1000px;
     }
     .main-container{
-        margin: 400px 5px 530px 97px;
+        margin: 400px 5px 100px 97px;
     }
     .main-container > .resume-heading{
         margin-top: 100px;
@@ -549,7 +549,7 @@ footer > .footer-container > ul > li{
         margin-left: 850px;
     }
     .main-container{
-        margin: 400px 5px 530px 55px;
+        margin: 400px 5px 100px 55px;
     }
     .main-container > .resume-heading{
         margin-top: 100px;
