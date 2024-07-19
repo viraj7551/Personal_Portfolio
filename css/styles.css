@@ -350,6 +350,12 @@ footer > .footer-container > ul > li{
         height: 20px;
         margin: 4px 10px 20px 0px;
     }
+    .experience-cards > .content > .experience-details > ul > li:nth-child(2) > img{
+        margin-left: 430px;
+    }
+    .main-container > .experience-title > ul > li:nth-child(2) > .preview-buttons > .btn{
+        margin-left: 520px;
+    }
 }
 @media screen and (min-device-width: 2271px) and (max-device-width: 2429px){
     .header-navbar{
@@ -382,6 +388,12 @@ footer > .footer-container > ul > li{
         width: 20px;
         height: 20px;
         margin: 4px 10px 20px 0px;
+    }
+    .experience-cards > .content > .experience-details > ul > li:nth-child(2) > img{
+        margin-left: 340px;
+    }
+    .main-container > .experience-title > ul > li:nth-child(2) > .preview-buttons > .btn{
+        margin-left: 400px;
     }
 }
 @media screen and (min-device-width: 2028px) and (max-device-width: 2270px){
@@ -416,6 +428,12 @@ footer > .footer-container > ul > li{
         height: 20px;
         margin: 6px 10px 20px 0px;
     }
+    .experience-cards > .content > .experience-details > ul > li:nth-child(2) > img{
+        margin-left: 310px;
+    }
+    .main-container > .experience-title > ul > li:nth-child(2) > .preview-buttons > .btn{
+        margin-left: 310px;
+    }
 }
 @media screen and (min-device-width: 1844px) and (max-device-width: 2027px){
     .header-navbar{
@@ -448,6 +466,12 @@ footer > .footer-container > ul > li{
         width: 20px;
         height: 20px;
         margin: 6px 10px 20px 0px;
+    }
+    .experience-cards > .content > .experience-details > ul > li:nth-child(2) > img{
+        margin-left: 290px;
+    }
+    .main-container > .experience-title > ul > li:nth-child(2) > .preview-buttons > .btn{
+        margin-left: 270px;
     }
 }
 @media screen and (min-device-width: 1620px) and (max-device-width: 1843px){
@@ -482,6 +506,9 @@ footer > .footer-container > ul > li{
         height: 20px;
         margin: 6px 10px 20px 0px;
     }
+    .experience-cards > .content > .experience-details > ul > li:nth-child(2) > img{
+        margin-left: 270px;
+    }
 }
 @media screen and (min-device-width: 1441px) and (max-device-width: 1619px){
     .header-navbar{
@@ -514,6 +541,9 @@ footer > .footer-container > ul > li{
         width: 20px;
         height: 20px;
         margin: 6px 10px 20px 0px;
+    }
+    .experience-cards > .content > .experience-details > ul > li:nth-child(2) > img{
+        margin-left: 240px;
     }
 }
 @media screen and (min-device-width: 1291px) and (max-device-width: 1440px){
