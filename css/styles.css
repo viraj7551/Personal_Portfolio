@@ -414,51 +414,20 @@ footer > .footer-container > ul > li{
 }
 @media screen and (min-device-width: 2271px) and (max-device-width: 2429px){
     .header-navbar{
-        margin-left: 1272px;
-    }
-    .cube {
-        width: 30px;
-        height: 30px;
-        margin: 15px 10px 20px 0px;
-    }
-    h2{
-        font-size: 42px;
-    }
-    h2 > .role{
-        font-size: 28px;
-    }
-    .header-navbar > ul > li > a{
-        font-size: 25px;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side {
-        margin-left: 370px;
-    }
-    .main-container > ul > li:nth-child(2) > .right-side > h1{
-        font-size: 72px;
-    }
-    .main-container > ul > li:nth-child(2) > .right-side > span{
-        font-size: 38px;
+        margin-left: 1670px;
     }
     .main-container{
-        margin: 406px 0px 411px 450px;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side > .card{
-        width: 80%;
-        height: 30vh;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side > .card > .card-footer{
-        margin-top: 20px;
-        margin-left: 15px;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side > .card > .card-footer > ul > li > a > img{
-        width: 25px;
+        margin: 400px 5px 530px 355px;
     }
     .main-container > .resume-heading{
         margin-top: 100px;
         font-size: 32px;
     }
     .main-container > .experience-title{
-        margin: 90px;
+        margin-top: 90px;
+    }
+    .main-container > ul > li:nth-child(1) > .left-side {
+        margin-left: 470px;
     }
     .content-section {
         width: 80%;
@@ -467,91 +436,31 @@ footer > .footer-container > ul > li{
     footer{
         top: 21px;
     }
-    .main-container > ul > li:nth-child(1) > .left-side > .card > .profileName > h2{
-        margin-top: 20px;
-    }
-    .main-container > .experience-title > ul > li:nth-child(2) >.preview-button{
-        padding-left: 570px;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side > .card  hr{
-       margin: 20px;
-       margin-left: 75px;
-       width: 130px;
-    }
-
-    .main-container > ul > li:nth-child(2) > .right-side{
-        margin-left: 130px;
-    }
-
-    .main-container > ul > li:nth-child(2) > .right-side > .content-section > span{
-        font-size: 32px;
-    }
-    .main-container > ul > li:nth-child(2) > .right-side > .profile_buttons > .btn{
-      font-size: 24px;
-      padding: 20px;
-      width: 190px;
-    }
-
-    .footer-container > ul > li:nth-child(1) > span {
-        font-size: 20px;
-    }
     .contact-container {
-        margin-left: 1120px;
+        margin-left: 1250px;
     }
-    .contact-container > ul > li > span{
-        font-size: 22px;
-    }
-    .contact-container > ul > li > p {
-        font-size: 18px;
+    .cube {
+        width: 20px;
+        height: 20px;
+        margin: 6px 10px 20px 0px;
     }
 }
 @media screen and (min-device-width: 2028px) and (max-device-width: 2270px){
     .header-navbar{
-        margin-left: 1032px;
-    }
-    .cube {
-        width: 30px;
-        height: 30px;
-        margin: 15px 10px 20px 0px;
-    }
-    h2{
-        font-size: 42px;
-    }
-    h2 > .role{
-        font-size: 28px;
-    }
-    .header-navbar > ul > li > a{
-        font-size: 25px;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side {
-        margin-left: 370px;
-    }
-    .main-container > ul > li:nth-child(2) > .right-side > h1{
-        font-size: 72px;
-    }
-    .main-container > ul > li:nth-child(2) > .right-side > span{
-        font-size: 38px;
+        margin-left: 1410px;
     }
     .main-container{
-        margin: 406px 0px 411px 290px;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side > .card{
-        width: 80%;
-        height: 30vh;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side > .card > .card-footer{
-        margin-top: 20px;
-        margin-left: 15px;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side > .card > .card-footer > ul > li > a > img{
-        width: 25px;
+        margin: 400px 5px 530px 255px;
     }
     .main-container > .resume-heading{
         margin-top: 100px;
         font-size: 32px;
     }
     .main-container > .experience-title{
-        margin: 90px;
+        margin-top: 90px;
+    }
+    .main-container > ul > li:nth-child(1) > .left-side {
+        margin-left: 470px;
     }
     .content-section {
         width: 80%;
@@ -560,91 +469,31 @@ footer > .footer-container > ul > li{
     footer{
         top: 21px;
     }
-    .main-container > ul > li:nth-child(1) > .left-side > .card > .profileName > h2{
-        margin-top: 20px;
-    }
-    .main-container > .experience-title > ul > li:nth-child(2) >.preview-button{
-        padding-left: 570px;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side > .card  hr{
-       margin: 20px;
-       margin-left: 75px;
-       width: 130px;
-    }
-
-    .main-container > ul > li:nth-child(2) > .right-side{
-        margin-left: 130px;
-    }
-
-    .main-container > ul > li:nth-child(2) > .right-side > .content-section > span{
-        font-size: 32px;
-    }
-    .main-container > ul > li:nth-child(2) > .right-side > .profile_buttons > .btn{
-      font-size: 24px;
-      padding: 20px;
-      width: 190px;
-    }
-
-    .footer-container > ul > li:nth-child(1) > span {
-        font-size: 20px;
-    }
     .contact-container {
-        margin-left: 890px;
+        margin-left: 1050px;
     }
-    .contact-container > ul > li > span{
-        font-size: 22px;
-    }
-    .contact-container > ul > li > p {
-        font-size: 18px;
+    .cube {
+        width: 20px;
+        height: 20px;
+        margin: 6px 10px 20px 0px;
     }
 }
 @media screen and (min-device-width: 1844px) and (max-device-width: 2027px){
     .header-navbar{
-        margin-left: 872px;
-    }
-    .cube {
-        width: 30px;
-        height: 30px;
-        margin: 15px 10px 20px 0px;
-    }
-    h2{
-        font-size: 42px;
-    }
-    h2 > .role{
-        font-size: 28px;
-    }
-    .header-navbar > ul > li > a{
-        font-size: 25px;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side {
-        margin-left: 370px;
-    }
-    .main-container > ul > li:nth-child(2) > .right-side > h1{
-        font-size: 72px;
-    }
-    .main-container > ul > li:nth-child(2) > .right-side > span{
-        font-size: 38px;
+        margin-left: 1270px;
     }
     .main-container{
-        margin: 406px 0px 411px 190px;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side > .card{
-        width: 80%;
-        height: 30vh;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side > .card > .card-footer{
-        margin-top: 20px;
-        margin-left: 15px;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side > .card > .card-footer > ul > li > a > img{
-        width: 25px;
+        margin: 400px 5px 530px 155px;
     }
     .main-container > .resume-heading{
         margin-top: 100px;
         font-size: 32px;
     }
     .main-container > .experience-title{
-        margin: 90px;
+        margin-top: 90px;
+    }
+    .main-container > ul > li:nth-child(1) > .left-side {
+        margin-left: 470px;
     }
     .content-section {
         width: 80%;
@@ -653,91 +502,31 @@ footer > .footer-container > ul > li{
     footer{
         top: 21px;
     }
-    .main-container > ul > li:nth-child(1) > .left-side > .card > .profileName > h2{
-        margin-top: 20px;
-    }
-    .main-container > .experience-title > ul > li:nth-child(2) >.preview-button{
-        padding-left: 570px;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side > .card  hr{
-       margin: 20px;
-       margin-left: 75px;
-       width: 130px;
-    }
-
-    .main-container > ul > li:nth-child(2) > .right-side{
-        margin-left: 130px;
-    }
-
-    .main-container > ul > li:nth-child(2) > .right-side > .content-section > span{
-        font-size: 32px;
-    }
-    .main-container > ul > li:nth-child(2) > .right-side > .profile_buttons > .btn{
-      font-size: 24px;
-      padding: 20px;
-      width: 190px;
-    }
-
-    .footer-container > ul > li:nth-child(1) > span {
-        font-size: 20px;
-    }
     .contact-container {
-        margin-left: 690px;
+        margin-left: 910px;
     }
-    .contact-container > ul > li > span{
-        font-size: 22px;
+    .cube {
+        width: 20px;
+        height: 20px;
+        margin: 6px 10px 20px 0px;
     }
-    .contact-container > ul > li > p {
-        font-size: 18px;
-    } 
 }
 @media screen and (min-device-width: 1620px) and (max-device-width: 1843px){
     .header-navbar{
-        margin-left: 612px;
-    }
-    .cube {
-        width: 30px;
-        height: 30px;
-        margin: 15px 10px 20px 0px;
-    }
-    h2{
-        font-size: 42px;
-    }
-    h2 > .role{
-        font-size: 28px;
-    }
-    .header-navbar > ul > li > a{
-        font-size: 25px;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side {
-        margin-left: 370px;
-    }
-    .main-container > ul > li:nth-child(2) > .right-side > h1{
-        font-size: 72px;
-    }
-    .main-container > ul > li:nth-child(2) > .right-side > span{
-        font-size: 38px;
+        margin-left: 1000px;
     }
     .main-container{
-        margin: 406px 0px 411px 120px;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side > .card{
-        width: 80%;
-        height: 30vh;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side > .card > .card-footer{
-        margin-top: 20px;
-        margin-left: 15px;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side > .card > .card-footer > ul > li > a > img{
-        width: 25px;
+        margin: 400px 5px 530px 97px;
     }
     .main-container > .resume-heading{
         margin-top: 100px;
         font-size: 32px;
     }
     .main-container > .experience-title{
-        margin: 90px;
+        margin-top: 90px;
+    }
+    .main-container > ul > li:nth-child(1) > .left-side {
+        margin-left: 470px;
     }
     .content-section {
         width: 80%;
@@ -746,91 +535,31 @@ footer > .footer-container > ul > li{
     footer{
         top: 21px;
     }
-    .main-container > ul > li:nth-child(1) > .left-side > .card > .profileName > h2{
-        margin-top: 20px;
-    }
-    .main-container > .experience-title > ul > li:nth-child(2) >.preview-button{
-        padding-left: 570px;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side > .card  hr{
-       margin: 20px;
-       margin-left: 75px;
-       width: 130px;
-    }
-
-    .main-container > ul > li:nth-child(2) > .right-side{
-        margin-left: 130px;
-    }
-
-    .main-container > ul > li:nth-child(2) > .right-side > .content-section > span{
-        font-size: 32px;
-    }
-    .main-container > ul > li:nth-child(2) > .right-side > .profile_buttons > .btn{
-      font-size: 24px;
-      padding: 20px;
-      width: 190px;
-    }
-
-    .footer-container > ul > li:nth-child(1) > span {
-        font-size: 20px;
-    }
     .contact-container {
-        margin-left: 490px;
+        margin-left: 670px;
     }
-    .contact-container > ul > li > span{
-        font-size: 22px;
+    .cube {
+        width: 20px;
+        height: 20px;
+        margin: 6px 10px 20px 0px;
     }
-    .contact-container > ul > li > p {
-        font-size: 18px;
-    } 
 }
 @media screen and (min-device-width: 1441px) and (max-device-width: 1619px){
     .header-navbar{
-        margin-left: 412px;
-    }
-    .cube {
-        width: 30px;
-        height: 30px;
-        margin: 15px 10px 20px 0px;
-    }
-    h2{
-        font-size: 42px;
-    }
-    h2 > .role{
-        font-size: 28px;
-    }
-    .header-navbar > ul > li > a{
-        font-size: 25px;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side {
-        margin-left: 370px;
-    }
-    .main-container > ul > li:nth-child(2) > .right-side > h1{
-        font-size: 72px;
-    }
-    .main-container > ul > li:nth-child(2) > .right-side > span{
-        font-size: 38px;
+        margin-left: 850px;
     }
     .main-container{
-        margin: 406px 0px 411px 10px;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side > .card{
-        width: 80%;
-        height: 30vh;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side > .card > .card-footer{
-        margin-top: 20px;
-        margin-left: 15px;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side > .card > .card-footer > ul > li > a > img{
-        width: 25px;
+        margin: 400px 5px 530px 55px;
     }
     .main-container > .resume-heading{
         margin-top: 100px;
         font-size: 32px;
     }
     .main-container > .experience-title{
-        margin: 90px;
+        margin-top: 90px;
+    }
+    .main-container > ul > li:nth-child(1) > .left-side {
+        margin-left: 470px;
     }
     .content-section {
         width: 80%;
@@ -839,43 +568,14 @@ footer > .footer-container > ul > li{
     footer{
         top: 21px;
     }
-    .main-container > ul > li:nth-child(1) > .left-side > .card > .profileName > h2{
-        margin-top: 20px;
-    }
-    .main-container > .experience-title > ul > li:nth-child(2) >.preview-button{
-        padding-left: 570px;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side > .card  hr{
-       margin: 20px;
-       margin-left: 75px;
-       width: 130px;
-    }
-
-    .main-container > ul > li:nth-child(2) > .right-side{
-        margin-left: 130px;
-    }
-
-    .main-container > ul > li:nth-child(2) > .right-side > .content-section > span{
-        font-size: 32px;
-    }
-    .main-container > ul > li:nth-child(2) > .right-side > .profile_buttons > .btn{
-      font-size: 24px;
-      padding: 20px;
-      width: 190px;
-    }
-
-    .footer-container > ul > li:nth-child(1) > span {
-        font-size: 20px;
-    }
     .contact-container {
-        margin-left: 320px;
+        margin-left: 450px;
     }
-    .contact-container > ul > li > span{
-        font-size: 22px;
+    .cube {
+        width: 20px;
+        height: 20px;
+        margin: 6px 10px 20px 0px;
     }
-    .contact-container > ul > li > p {
-        font-size: 18px;
-    } 
 }
 @media screen and (min-device-width: 1291px) and (max-device-width: 1440px){
     .header-navbar{
