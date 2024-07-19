@@ -320,51 +320,20 @@ footer > .footer-container > ul > li{
 
 @media screen and (min-device-width: 2430px) and (max-device-width: 2560px){
     .header-navbar{
-        margin-left: 1470px;
-    }
-    .cube {
-        width: 30px;
-        height: 30px;
-        margin: 15px 10px 20px 0px;
-    }
-    h2{
-        font-size: 42px;
-    }
-    h2 > .role{
-        font-size: 28px;
-    }
-    .header-navbar > ul > li > a{
-        font-size: 25px;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side {
-        margin-left: 370px;
-    }
-    .main-container > ul > li:nth-child(2) > .right-side > h1{
-        font-size: 72px;
-    }
-    .main-container > ul > li:nth-child(2) > .right-side > span{
-        font-size: 38px;
+        margin-left: 1850px;
     }
     .main-container{
-        margin: 406px 0px 411px 520px;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side > .card{
-        width: 80%;
-        height: 30vh;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side > .card > .card-footer{
-        margin-top: 20px;
-        margin-left: 15px;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side > .card > .card-footer > ul > li > a > img{
-        width: 25px;
+        margin: 220px 5px 100px 355px;
     }
     .main-container > .resume-heading{
         margin-top: 100px;
         font-size: 32px;
     }
     .main-container > .experience-title{
-        margin: 90px;
+        margin-top: 90px;
+    }
+    .main-container > ul > li:nth-child(1) > .left-side {
+        margin-left: 570px;
     }
     .content-section {
         width: 80%;
@@ -373,43 +342,13 @@ footer > .footer-container > ul > li{
     footer{
         top: 21px;
     }
-    .main-container > ul > li:nth-child(1) > .left-side > .card > .profileName > h2{
-        margin-top: 20px;
-    }
-    .main-container > .experience-title > ul > li:nth-child(2) >.preview-button{
-        padding-left: 570px;
-    }
-    .main-container > ul > li:nth-child(1) > .left-side > .card  hr{
-       margin: 20px;
-       margin-left: 75px;
-       width: 130px;
-    }
-
-    .main-container > ul > li:nth-child(2) > .right-side{
-        margin-left: 130px;
-    }
-
-    .main-container > ul > li:nth-child(2) > .right-side > .content-section > span{
-        font-size: 32px;
-    }
-    .main-container > ul > li:nth-child(2) > .right-side > .profile_buttons > .btn{
-      font-size: 24px;
-      padding: 20px;
-      width: 190px;
-    }
-
-    .footer-container > ul > li:nth-child(1) > span {
-        font-size: 20px;
-    }
     .contact-container {
-        margin-left: 1290px;
+        margin-left: 1450px;
     }
-    .contact-container > ul > li > span{
-        font-size: 22px;
-    }
-
-    .contact-container > ul > li > p {
-        font-size: 18px;
+    .cube {
+        width: 20px;
+        height: 20px;
+        margin: 4px 10px 20px 0px;
     }
 }
 @media screen and (min-device-width: 2271px) and (max-device-width: 2429px){
@@ -417,7 +356,7 @@ footer > .footer-container > ul > li{
         margin-left: 1670px;
     }
     .main-container{
-        margin: 400px 5px 500px 355px;
+        margin: 220px 5px 100px 355px;
     }
     .main-container > .resume-heading{
         margin-top: 100px;
@@ -450,7 +389,7 @@ footer > .footer-container > ul > li{
         margin-left: 1410px;
     }
     .main-container{
-        margin: 400px 5px 100px 255px;
+        margin: 220px 5px 100px 255px;
     }
     .main-container > .resume-heading{
         margin-top: 100px;
@@ -483,7 +422,7 @@ footer > .footer-container > ul > li{
         margin-left: 1270px;
     }
     .main-container{
-        margin: 400px 5px 100px 155px;
+        margin: 220px 5px 100px 155px;
     }
     .main-container > .resume-heading{
         margin-top: 100px;
@@ -516,7 +455,7 @@ footer > .footer-container > ul > li{
         margin-left: 1000px;
     }
     .main-container{
-        margin: 400px 5px 100px 97px;
+        margin: 220px 5px 100px 97px;
     }
     .main-container > .resume-heading{
         margin-top: 100px;
@@ -549,7 +488,7 @@ footer > .footer-container > ul > li{
         margin-left: 850px;
     }
     .main-container{
-        margin: 400px 5px 100px 55px;
+        margin: 220px 5px 100px 55px;
     }
     .main-container > .resume-heading{
         margin-top: 100px;
