@@ -232,8 +232,8 @@ enhance this below code
  }
 .content-section > span{
     font-family: Arial,Helvetica,sans-serif;
-    font-size: 17px;
-    letter-spacing: 2px;
+    font-size: 13px;
+    letter-spacing: 1px;
 }
 footer > .footer-container{
     padding: 10px 0px 10px 60px;
